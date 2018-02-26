@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		816AA9F620445D6600D1B7E1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 816AA9F520445D6600D1B7E1 /* main.cpp */; };
+		816AA9FE20445DCB00D1B7E1 /* listSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 816AA9FC20445DCB00D1B7E1 /* listSort.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		816AA9F220445D6600D1B7E1 /* linkedListSort */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = linkedListSort; sourceTree = BUILT_PRODUCTS_DIR; };
 		816AA9F520445D6600D1B7E1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		816AA9FC20445DCB00D1B7E1 /* listSort.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = listSort.cpp; sourceTree = "<group>"; };
+		816AA9FD20445DCB00D1B7E1 /* listSort.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = listSort.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				816AA9F520445D6600D1B7E1 /* main.cpp */,
+				816AA9FC20445DCB00D1B7E1 /* listSort.cpp */,
+				816AA9FD20445DCB00D1B7E1 /* listSort.hpp */,
 			);
 			path = linkedListSort;
 			sourceTree = "<group>";
@@ -120,6 +125,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				816AA9F620445D6600D1B7E1 /* main.cpp in Sources */,
+				816AA9FE20445DCB00D1B7E1 /* listSort.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
